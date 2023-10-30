@@ -25,7 +25,25 @@ public class Team {
         return this.nome;
     }
 
+    public int getWins(){
+        return this.wins;
+    }
 
+    public int getLosses(){
+        return this.losses;
+    }
+
+    public int getWithdraws(){
+        return this.withdraws;
+    }
+
+    public int getGoals(){
+        return this.goals;
+    }
+
+    public int getGoalsTaken(){
+        return this.goalsTaken;
+    }
 
     // Setters
     public void setNome(String nome){
